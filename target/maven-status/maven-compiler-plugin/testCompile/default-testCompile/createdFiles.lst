@@ -1,0 +1,11 @@
+Page\paymentsgatewayPage.class
+Test\ProductsTest.class
+Test\RegressionTestIT.class
+Page\homePage.class
+Test\BasicTestIT.class
+Page\loginPage.class
+Page\cartPage.class
+Page\confirmPage.class
+Page\resultsPage.class
+Page\orderReportPage.class
+Page\shippingDetailsPage.class
