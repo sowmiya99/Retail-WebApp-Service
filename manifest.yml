@@ -4,7 +4,7 @@ applications:
   memory: 512M
   instances: 1
   host: reatilapp
-  path: ./retailone.war
+  path: target/retailone.war
   services:
     - mysql-dev
 
