@@ -6,5 +6,5 @@ applications:
   host: reatilapp
   path: ./retailone.war
   services:
-    - "mysql-dev"
+    - mysql-dev
 
