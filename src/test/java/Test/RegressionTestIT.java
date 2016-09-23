@@ -2,10 +2,11 @@ package Test;
 
 import junit.framework.Assert;
 
-import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.*;
+//import org.openqa.selenium.firefox.*;
 import org.testng.annotations.Test;
+import org.openqa.selenium.htmlunit.*; 
 
 import Page.homePage;
 import Page.loginPage;
@@ -17,7 +18,8 @@ public class RegressionTestIT {
 	  
 	  //System.setProperty("webdriver.chrome.driver", "/bin/chromedriver");
 	  //WebDriver	driver = new ChromeDriver();
-	  WebDriver	driver = new FirefoxDriver();
+	 // WebDriver	driver = new FirefoxDriver();
+	 WebDriver	driver = new HtmlUnitDriver();
 	  driver.get("http://retailapp.cogpcfdevops.com/");
 	  Assert.assertEquals("Retail Application Demo", driver.getTitle());
 	  
