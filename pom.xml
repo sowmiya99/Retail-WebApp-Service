@@ -55,7 +55,7 @@
 				<version>2.2</version>
 				<configuration>
 					<server>54.226.235.226</server>
-        				<port>8082</port>
+        				<port>8085</port>
 					<warFile>target/retailone.war</warFile>
 					<path>/</path>
 					<contextReloadable>true</contextReloadable>
