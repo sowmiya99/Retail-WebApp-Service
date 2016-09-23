@@ -11,7 +11,7 @@ public class BasicTestIT {
   public void f() {
 	  System.setProperty("webdriver.chrome.driver", "/bin/chromedriver");
 	  WebDriver	driver = new ChromeDriver();
-	  driver.get("http://54.226.235.226:8085/");
+	  driver.get("http://retailapp.cogpcfdevops.com/");
 	  Assert.assertEquals("Retail Application Demo", driver.getTitle());
 	  driver.close();
   }
