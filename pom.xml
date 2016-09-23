@@ -10,10 +10,6 @@
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-servlet-api</artifactId>
 			<version>8.0.30</version>
-			<configuration>
-                	<server>54.226.235.226</server>
-        		<port>8082</port>
-        		</configuration>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -58,6 +54,8 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
+					<server>54.226.235.226</server>
+        				<port>8082</port>
 					<warFile>target/retailone.war</warFile>
 					<path>/</path>
 					<contextReloadable>true</contextReloadable>
