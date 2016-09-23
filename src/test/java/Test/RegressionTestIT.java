@@ -16,7 +16,7 @@ public class RegressionTestIT {
 	  
 	  System.setProperty("webdriver.chrome.driver", "/usr/bin/firefox");
 	  WebDriver	driver = new ChromeDriver();
-	  driver.get("http://54.226.235.226:8082/");
+	  driver.get("http://localhost:8080/");
 	  Assert.assertEquals("Retail Application Demo", driver.getTitle());
 	  
 	  loginPage loginpage = new loginPage(driver);
