@@ -17,6 +17,6 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>SearchingServlet</servlet-name>
-    <url-pattern>/SearchingServlet</url-pattern>
+    <url-pattern>SearchingServlet</url-pattern>
   </servlet-mapping>
 </web-app>
