@@ -7,4 +7,8 @@ applications:
   path: target/retailone.war
   services:
     - "mysql-qa"
+properties:
+  router:
+    tracing:
+      enable_zipkin: true
 
