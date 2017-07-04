@@ -1,3 +1,6 @@
 node {
-   echo 'Testing done...'
-}
+    stage("Build"){
+        git url: 'https://github.com/sowmiya99/Retail-WebApp-Service.git'
+        bat "mvn clean install"
+        }
+   }
