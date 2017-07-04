@@ -1,5 +1,5 @@
 node {
     stage("Build"){
-        git url: 'https://github.com/sowmiya99/bamoo_test.git'
+        git url: 'https://github.com/sowmiya99/Retail-WebApp-Service.git'
     }
 }
